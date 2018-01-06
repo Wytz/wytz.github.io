@@ -1,9 +1,12 @@
 - language:
-  idiom: English
+  idiom: Dutch
   level: Native
 - language:
-  idiom: French
+  idiom: English
   level: Professional
 - language:
-  idiom: Spanish
-  level: Professional
+  idiom: French
+  level: Mediocre
+- language:
+  idiom: German
+  level: Mediocre

@@ -6,8 +6,8 @@ baseurl: '/' #change it according to your repository name
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
 #style: styles-2
 #style: styles-3
-style: styles-4
-#style: styles-5
+#style: styles-4
+style: styles-5
 #style: styles-6
 
 #Profile information
@@ -17,7 +17,7 @@ pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and pro
 summary: 'Researcher into knowledge graphs and reasoning for biomedical research.'
 
 #sidebar links
-email: wytze@wytze.ino
+email: wytze.vlietstra@gmail.com
 phone: +31-10-7044127
 #website: blog.webjeda.com #do not add http://
 linkedin: wjvlietstra
