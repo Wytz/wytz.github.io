@@ -1,8 +1,16 @@
+- education: 
+  degree: PhD Medical Informatics
+  university: Erasmus Medical Center
+  time: 2015-2019
 - education:
   degree: MSc Medical Informatics
   university: University of Amsterdam Medical Center
-  time: 2012-2015
+  time: 2012-2014
 - education:
   degree: BSc Biomedical Sciences
   university: University of Amsterdam
   time: 2007 - 2011
+- education:
+  degree: VWO Natuur en gezondheid/Natuur en techniek
+  university: Vossius Gymnasium
+  time: 2000 - 2006
