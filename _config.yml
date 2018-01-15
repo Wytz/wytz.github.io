@@ -4,17 +4,24 @@ url: 'http://webjeda.com'
 baseurl: '/' #change it according to your repository name
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
-#style: styles-2
+style: styles-2
 #style: styles-3
 #style: styles-4
 #style: styles-5
-style: styles-6
+#style: styles-6
 
 #Profile information
 name: Wytze Vlietstra
-tagline: Biosemantics
+tagline: Biosemantics & Semantic Web
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: 'Researcher into knowledge graphs and reasoning for biomedical research.'
+summary: 'I'm currently a researcher at the Erasmus University Medical Center, at the Medical Informatics department.'
+'My PhD focusses on using biomedical knowledge graphs to support data analyses and biomedical research in general.'
+'Knowledge extracted from biomedical literature and datasets are semantically integrated with each other into a knowledge graph' 
+', after which this comprehensive body of biomedical knowledge is used for knowledge intensive tasks such as identifying migraine biomarkers to predicting the efficacy of drugs.'
+'The elements within these knowledge graphs consist of subject-predicate-object triples, along with the provenance of this triple.'
+'Triples also form the basic elements of the semantic web. However, while the semantic web adheres to specific standards (e.g. URI\'s), knowledge graphs do not necessarily adhere to these standards.'
+'Our most recent research efforts have led us to analyze the complex data extracted from knowledge graphs with machine learning.'
+'I have collaborated within both european as well as national research projects, i.e. the EU FP7 Eureka project, and the NWO ODEX project.'
 
 #sidebar links
 email: w.vlietstra@erasmusmc.nl

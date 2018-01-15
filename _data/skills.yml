@@ -1,4 +1,7 @@
 - skill:
+  name: PhD
+  level: 66%
+- skill:
   name: Python
   level: 70%
 - skill:
@@ -7,3 +10,12 @@
 - skill: 
   name: Machine learning
   level: 60%
+- skill:
+  name: SPARQL
+  level: 40%
+- skill:
+  name: SQL
+  level: 30%
+- skill:
+  name: Java
+  level: 20%
