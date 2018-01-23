@@ -17,7 +17,7 @@ pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and pro
 summary: >
 	I'm currently a researcher at the Erasmus University Medical Center, at the Medical Informatics department.
 	My PhD focusses on using biomedical knowledge graphs to support data analyses and biomedical research in general.
-	My promotor is Johan van der Lei, and my daily supervisors are Erik van Mulligen and Rein Vos (visiting professor from Maastricht University). \n
+	My promotor is Johan van der Lei, and my daily supervisors are Erik van Mulligen and Rein Vos (visiting professor from Maastricht University).
 	Knowledge extracted from biomedical literature and datasets are semantically integrated with each other into a knowledge graph, after which this comprehensive body of biomedical knowledge is used for knowledge intensive tasks such as identifying migraine biomarkers to predicting the efficacy of drugs.
 	The elements within these knowledge graphs consist of subject-predicate-object triples, along with the provenance of this triple.
 	Triples also form the basic elements of the semantic web.
