@@ -14,7 +14,8 @@ style: styles-6
 name: Wytze Vlietstra
 tagline: Biosemantics & Semantic Web
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: | testtest
+summary: | 
+	testtest
 
 #sidebar links
 email: w.vlietstra@erasmusmc.nl
