@@ -222,10 +222,10 @@ p {
   color: #97AAC3;
 }
 .main-wrapper .project-title {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 600;
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 .main-wrapper .projects-section .intro {
   margin-bottom: 30px;

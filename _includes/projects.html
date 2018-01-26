@@ -15,18 +15,20 @@
       <span class="project-title"><bf>{{ project.title }}</bf></span>
 	  
 	  <div class="links">
+	   
+	    <span class="publicationdate">{{ project.publicationdate }}</span>
 	  
-	    <span class="project-link"><a href="{{ project.link }}">Article</a></span>
+	    <span class="project-link"><a href="{{ project.link }}">  Article  </a></span>
 	  
 	    {% if project.github %}
 	  
-	    <span class="project-link"><a href="{{ project.github }}">GitHub repository</a></span>
+	    <span class="project-link"><a href="{{ project.github }}">  GitHub repository  </a></span>
 	  
 	    {% endif %}
 		
 	    {% if project.workbook %}
 	  
-	    <span class="project-link"><a href="{{ project.workbook }}">Workbook</a></span>
+	    <span class="project-link"><a href="{{ project.workbook }}">  Workbook  </a></span>
 	  
 	    {% endif %}
 	  
