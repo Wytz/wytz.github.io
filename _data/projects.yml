@@ -2,7 +2,7 @@
   description: "Here I list my publications, along with their abstracts. For each a link is provided."
 - project:
   title: Automated extraction of potential migraine biomarkers using a semantic graph
-  journal: Journal of biomedical informatics
+  journal: Journal of Biomedical Informatics
   link: http://dx.doi.org/10.1016/j.jbi.2017.05.018
   github: https://github.com/Wytz/migraine_biomarkers
   workbook: http://wytze.info/migraine_biomarkers/
@@ -26,7 +26,7 @@
   publicationdate: 07-2017
 - project:
   title: Candidate prioritization for low-abundant differentially expressed proteins in 2D-DIGE datasets
-  journal: BMC bioinformatics
+  journal: BMC Bioinformatics
   link: http://dx.doi.org/10.1186/s12859-015-0455-x
   tagline: |+
     **BACKGROUND** Two-dimensional differential gel electrophoresis (2D-DIGE) provides a powerful technique to separate proteins on their isoelectric point and apparent molecular mass and quantify changes in protein expression. 
@@ -44,7 +44,7 @@
   publicationdate: 01-2015
 - project:
   title: Proteomic analysis of HIV-T cell interaction; an update
-  journal: Frontiers in microbiology
+  journal: Frontiers in Microbiology
   link: http://dx.doi.org/10.3389/fmicb.2012.00240
   tagline: |
     This mini-review summarizes techniques applied in, and results obtained with, proteomic studies of human immunodeficiency virus type 1 (HIV-1)-T cell interaction. 
@@ -57,7 +57,7 @@
   publicationdate: 07-2012
 - project:
   title: Dengue in travellers; applicability of the 1975-1997 and the 2009 WHO classification system of dengue fever
-  journal: Tropical medicine & international health
+  journal: Tropical Medicine & International Health
   link: http://dx.doi.org/10.1111/j.1365-3156.2012.03020.x
   tagline: |+
     **OBJECTIVES** The aim of this study was to assess the applicability and benefits of the new WHO dengue fever guidelines in clinical practice, for returning travellers. 

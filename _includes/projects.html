@@ -11,13 +11,13 @@
 
   {% for project in site.data.projects %}
     <div class="item">
-
-      <h3 class="project-title"><b>{{ project.title }}</b></h3>
-	  <div class="time">{{ project.publicationdate }}</div>
-	  
+	  <div class="upper-row">
+        <h3 class="project-title">{{ project.title }}</h3>
+	    <div class="time">{{ project.publicationdate }}</div>
+	  </div>
 	  <div class="links">
 	   
-	    <span class="project-link"><a href="{{ project.link }}">  {{ project.journal}}  </a></span>
+	    <span class="project-link"><a href="{{ project.link }}"><b>  {{ project.journal}}  </b></a></span>
 	  
 	    {% if project.github %}
 	  
