@@ -226,6 +226,8 @@ p {
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 15px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .main-wrapper .link {
   margin-top: 20px;
