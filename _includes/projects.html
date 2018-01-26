@@ -12,14 +12,12 @@
   {% for project in site.data.projects %}
     <div class="item">
 
-      <span class="project-title"><b>{{ project.title }}</b></span>
+      <h3 class="project-title"><b>{{ project.title }}</b></h3>
+	  <div class="time">{{ project.publicationdate }}</div>
 	  
 	  <div class="links">
-		<span class="journal"> {{ project.journal}}  </span>
 	   
-	    <span class="publicationdate">  Publication date: {{ project.publicationdate }}  </span>
-	  
-	    <span class="project-link"><a href="{{ project.link }}">  Article  </a></span>
+	    <span class="project-link"><a href="{{ project.link }}">  {{ project.journal}}  </a></span>
 	  
 	    {% if project.github %}
 	  
