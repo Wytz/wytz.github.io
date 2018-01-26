@@ -2,7 +2,8 @@
   description: "Here I list my publications, along with their abstracts. For each a link is provided."
 - project:
   title: Automated extraction of potential migraine biomarkers using a semantic graph
-  link: "http://dx.doi.org/10.1016/j.jbi.2017.05.018"
+  journal: Journal of biomedical informatics
+  link: http://dx.doi.org/10.1016/j.jbi.2017.05.018
   github: https://github.com/Wytz/migraine_biomarkers
   workbook: http://wytze.info/migraine_biomarkers/
   tagline: |+
@@ -25,7 +26,8 @@
   publicationdate: 07-2017
 - project:
   title: Candidate prioritization for low-abundant differentially expressed proteins in 2D-DIGE datasets
-  link: "http://dx.doi.org/10.1186/s12859-015-0455-x"
+  journal: BMC bioinformatics
+  link: http://dx.doi.org/10.1186/s12859-015-0455-x
   tagline: |+
     **BACKGROUND** Two-dimensional differential gel electrophoresis (2D-DIGE) provides a powerful technique to separate proteins on their isoelectric point and apparent molecular mass and quantify changes in protein expression. 
     Abundantly available proteins in spots can be identified using mass spectrometry-based approaches. 
@@ -42,7 +44,8 @@
   publicationdate: 01-2015
 - project:
   title: Proteomic analysis of HIV-T cell interaction; an update
-  link: "http://dx.doi.org/10.3389/fmicb.2012.00240"
+  journal: Frontiers in microbiology
+  link: http://dx.doi.org/10.3389/fmicb.2012.00240
   tagline: |
     This mini-review summarizes techniques applied in, and results obtained with, proteomic studies of human immunodeficiency virus type 1 (HIV-1)-T cell interaction. 
     Our group previously reported on the use of two-dimensional differential gel electrophoresis (2D-DIGE) coupled to matrix assisted laser-desorption time of flight peptide mass fingerprint analysis, to study T cell responses upon HIV-1 infection. 
@@ -54,7 +57,8 @@
   publicationdate: 07-2012
 - project:
   title: Dengue in travellers; applicability of the 1975-1997 and the 2009 WHO classification system of dengue fever
-  link: "http://dx.doi.org/10.1111/j.1365-3156.2012.03020.x"
+  journal: Tropical medicine & international health
+  link: http://dx.doi.org/10.1111/j.1365-3156.2012.03020.x
   tagline: |+
     **OBJECTIVES** The aim of this study was to assess the applicability and benefits of the new WHO dengue fever guidelines in clinical practice, for returning travellers. 
     
