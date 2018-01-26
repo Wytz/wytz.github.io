@@ -1,22 +1,21 @@
 - experience:
   role: PhD student
   time: 2017-2019
-  project: None
-  employer: Eramsus University Medical Center 
+  company: Eramsus University Medical Center 
   details: "During the final two years of my four-year period at the Erasmus Medical Center, 
   I'm finishing my research and writing my papers without being assigned to any specific project."
 - experience:
   role: Knowledge engineer
   time: 2015-2017
   project: ODEX project
-  employer: Eramsus University Medical Center 
+  company: Eramsus University Medical Center 
   details: "During the first two years of my PhD at the Erasmus Medical Center, I worked as a knowledge engineer for the NWO-ODEX project."
   url: https://www.dtls.nl/categorie/odex/
 - experience:
   role: Junior Researcher
   time: 2014 - 2015
   project: Eureca EU FP7 project
-  employer: Free University Amsterdam
+  company: Free University Amsterdam
   details: "During my one year+ I worked on the Eureca project, I worked on the contextualization of patient data. 
   This consisted of using patient data to search relevant information based on a small number of clinical use cases."
   url: https://www.up2europe.eu/european/projects/enabling-information-re-use-by-linking-clinical-research-and-care_14584.html
