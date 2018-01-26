@@ -12,23 +12,27 @@
   {% for project in site.data.projects %}
     <div class="item">
 
-      <span class="project-title">{{ project.title }}</span>
+      <span class="project-title"><bf>{{ project.title }}</bf></span>
 	  
-	  {% if project.link %}
+	  <div class="links">
 	  
-	  <span class="project-link"><a href="{{ project.link }}">Article</a></span>
+	    <span class="project-link"><a href="{{ project.link }}">Article</a></span>
 	  
-	  {% endif %}
+	    {% if project.github %}
 	  
-	  {% if project.github %}
+	    <span class="project-link"><a href="{{ project.github }}">GitHub repository</a></span>
 	  
-	  <span class="project-link"><a href="{{ project.github }}">GitHub repository</a></span>
+	    {% endif %}
+		
+	    {% if project.workbook %}
 	  
-	  {% endif %}
+	    <span class="project-link"><a href="{{ project.workbook }}">Workbook</a></span>
+	  
+	    {% endif %}
+	  
+  	  </div>
 
-      {% if project.tagline %}
       <span class="project-tagline">{{ project.tagline | markdownify}}</span>
-      {% endif %}
 
     </div><!--//item-->
   {% endfor %}

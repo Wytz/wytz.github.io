@@ -3,6 +3,8 @@
 - project:
   title: Automated extraction of potential migraine biomarkers using a semantic graph
   link: "http://dx.doi.org/10.1016/j.jbi.2017.05.018"
+  github: https://github.com/Wytz/migraine_biomarkers
+  workbook: http://wytze.info/migraine_biomarkers/
   tagline: |+
     **PROBLEM** Biomedical literature and databases contain important clues for the identification of potential disease biomarkers. 
     However, searching these enormous knowledge reservoirs and integrating findings across heterogeneous sources is costly and difficult. 
