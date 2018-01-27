@@ -238,6 +238,8 @@ p {
 }
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .main-wrapper .projects-section .project-tagline {
   text-align: justify;
