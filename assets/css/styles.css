@@ -93,7 +93,7 @@ p {
 }
 .sidebar-wrapper .contact-list .fa {
   margin-right: 5px;
-  font-size: 14px;
+  font-size: 10px;
   vertical-align: middle;
 }
 .sidebar-wrapper .contact-list li {
@@ -106,7 +106,7 @@ p {
   font-size: 8px;
 }
 .sidebar-wrapper .container-block {
-  padding: 20px;
+  padding: 10px;
 }
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
@@ -239,7 +239,7 @@ p {
   margin-bottom: 10px;
 }
 .main-wrapper .projects-section .item {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 .main-wrapper .projects-section .project-tagline {
   text-align: justify;
