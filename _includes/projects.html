@@ -12,11 +12,11 @@
   {% for project in site.data.projects %}
     <div class="item">
       <h3 class="project-title" style="text-align:justify;text-justify:inter-word;"><b>{{ project.title }}</b></h3>
-	  <div class="metadata" style="margin-top:30px;margin-bottom:15px;">
-	    <span class="project-link" style="font-size:18;"><a href="{{ project.link }}"><i>  {{ project.journal}}  </i></a></span>
-	  	<span class="time" style="align:right">{{ project.publicationdate }}</span>
+	  <div class="metadata" style="margin-top:10px;margin-bottom:10px;">
+	    <span class="project-link" style="font-size:26;"><a href="{{ project.link }}"><i>  {{ project.journal}}  </i></a></span>
+	  	<span style="align:right">{{ project.publicationdate }}</span>
 	  </div>
-	  <div class = links style="margin-top:15px;margin-bottom:15px;font-size:14;">
+	  <div class = links style="margin-top:10px;margin-bottom:10px;font-size:20;">
 		  
 	    {% if project.github %}
 	  
@@ -26,7 +26,7 @@
 		
 	    {% if project.workbook %}
 	  
-	    <span class="project-link"><a href="{{ project.workbook }}"> Workbook </a></span>
+	    <span class="project-link" style="align:center;"><a href="{{ project.workbook }}"> Workbook </a></span>
 	  
 	    {% endif %}
 	  
