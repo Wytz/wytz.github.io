@@ -14,10 +14,10 @@
         <h3 class="project-title" style="text-align:justify;text-justify:inter-word;"><b>{{ project.title }}</b></h3>
 	  <div class="metadata">
 	   
-	    <span class="project-link"><a href="{{ project.link }}"><i>  {{ project.journal}}  </i></a></span>
-	  	<span class="time">{{ project.publicationdate }}
+	    <span class="project-link" style="margin-top:20px;margin-bottom:20px;font-size:14;"><a href="{{ project.link }}"><i>  {{ project.journal}}  </i></a></span>
+	  	<span class="time" style="align:right">{{ project.publicationdate }}</span>
 	  </div>
-	  <div class = links>
+	  <div class = links style="margin-top:20px;margin-bottom:20px;font-size:14;">
 		  
 	    {% if project.github %}
 	  
@@ -27,7 +27,7 @@
 		
 	    {% if project.workbook %}
 	  
-	    <span class="project-link"><a href="{{ project.workbook }}">  Workbook  </a></span>
+	    <span class="project-link"><a href="{{ project.workbook }}">  		Workbook  </a></span>
 	  
 	    {% endif %}
 	  
