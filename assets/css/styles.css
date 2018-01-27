@@ -199,6 +199,10 @@ p {
 .main-wrapper .experiences-section .item {
   margin-bottom: 30px;
 }
+.main-wrapper .experiences-section .details {
+  text-align: justify;
+  text-justify: inter-word;
+}
 .main-wrapper .upper-row {
   position: relative;
   overflow: hidden;
@@ -226,8 +230,6 @@ p {
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 15px;
-  text-align: justify;
-  text-justify: inter-word;
 }
 .main-wrapper .link {
   margin-top: 20px;
@@ -238,8 +240,6 @@ p {
 }
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
-  text-align: justify;
-  text-justify: inter-word;
 }
 .main-wrapper .projects-section .project-tagline {
   text-align: justify;
