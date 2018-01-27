@@ -11,7 +11,7 @@
 
   {% for project in site.data.projects %}
     <div class="item">
-        <h3 class="project-title"><b>{{ project.title }}</b></h3>
+        <h3 class="project-title" style="text-align:justify;text-justify:inter-word;"><b>{{ project.title }}</b></h3>
 	  <div class="metadata">
 	   
 	    <span class="project-link"><a href="{{ project.link }}"><i>  {{ project.journal}}  </i></a></span>
@@ -33,7 +33,7 @@
 	  
   	  </div>
 
-      <span class="project-tagline">{{ project.tagline | markdownify}}</span>
+      <span class="project-tagline" style="text-align:justify;text-justify:inter-word;">{{ project.tagline | markdownify}}</span>
 
     </div><!--//item-->
   {% endfor %}
