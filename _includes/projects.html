@@ -16,7 +16,7 @@
 	    <div style="font-size:15px;"><a href="{{ project.link }}"><i>  {{ project.journal}}  </i></a></div>
 		<div class="time">{{ project.publicationdate }}</div>
 	  </div>
-	  <div class = links style="margin-top:10px;margin-bottom:10px;font-size:14px;text-align:justify;text-justify:inter-word;">
+	  <span class = links style="margin-top:10px;margin-bottom:10px;font-size:14px;text-align:justify;text-justify:inter-word;">
 		  
 	    {% if project.github %}
 	    <div class="project-link">Project repository:  <a href="{{ project.github }}"> GitHub repository </a></div>
@@ -29,7 +29,7 @@
 	  
 	    {% endif %}
 	  
-  	  </div>
+  	  </span>
 
       <span class="project-tagline" style="text-align:justify;text-justify:inter-word;">{{ project.tagline | markdownify}}</span>
 
