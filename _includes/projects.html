@@ -13,20 +13,20 @@
   {% if project.title %}
     <div class="item" style="margin-bottom:30px;">
       <h3 class="project-title" style="text-align:justify;text-justify:inter-word;"><b>{{ project.title }}</b></h3>
-	  <div class="upper-row" style="margin-bottom:10px;">
+	  <div class="upper-row" style="margin-top:5px;margin-bottom:10px;">
 	    <div style="font-size:15px;">Link to article:<a href="{{ project.link }}" style="padding-left:5px;"><i>{{ project.journal }}</i></a></div>
 		<div class="time">{{ project.publicationdate }}</div>
 	  </div>
 	  <div class = "links" style="font-size:15px;">
 		  
 	    {% if project.github %}
-	    <div class="project-link" style="margin-bottom:25px;width:50%;float:left;">Project repository:<a href="{{ project.github }}" style="padding-left:5px;"> GitHub repository </a></div>
+	    <div class="project-link" style="margin-bottom:10px;width:50%;float:left;">Project repository:<a href="{{ project.github }}" style="padding-left:5px;"> GitHub repository </a></div>
 	  
 	    {% endif %}
 		
 	    {% if project.workbook %}
 	  
-	    <div class="project-link" style="margin-bottom:25px;width:50%;float:left;">Recreating results:<a href="{{ project.workbook }}" style="padding-left:5px;"> Workbook </a></div>
+	    <div class="project-link" style="margin-bottom:10px;width:50%;float:left;">Recreating results:<a href="{{ project.workbook }}" style="padding-left:5px;"> Workbook </a></div>
 	  
 	    {% endif %}
 	  
