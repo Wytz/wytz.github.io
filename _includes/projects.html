@@ -13,23 +13,23 @@
     <div class="item" style="margin-bottom:30px;">
       <h3 class="project-title" style="text-align:justify;text-justify:inter-word;"><b>{{ project.title }}</b></h3>
 	  <div class="upper-row" style="margin-top:10px;margin-bottom:10px;">
-	    <div style="font-size:15px;"><a href="{{ project.link }}"><i>  {{ project.journal}}  </i></a></div>
+	    <div style="font-size:15px;">Link to article: <a href="{{ project.link }}"><i>  {{ project.journal}}  </i></a></div>
 		<div class="time">{{ project.publicationdate }}</div>
 	  </div>
-	  <span class = links style="margin-top:10px;margin-bottom:10px;font-size:14px;text-align:justify;text-justify:inter-word;">
+	  <div class = links style="margin-top:10px;margin-bottom:10px;font-size:14px;text-align:justify;text-justify:inter-word;">
 		  
 	    {% if project.github %}
-	    <div class="project-link">Project repository:  <a href="{{ project.github }}"> GitHub repository </a></div>
+	    <div class="project-link" style="float:left;">Project repository:  <a href="{{ project.github }}"> GitHub repository </a></div>
 	  
 	    {% endif %}
 		
 	    {% if project.workbook %}
 	  
-	    <div class="project-link" style="align:right;">Recreating results:  <a href="{{ project.workbook }}"> Workbook </a></div>
+	    <div class="project-link" style="float:right;">Recreating results:  <a href="{{ project.workbook }}"> Workbook </a></div>
 	  
 	    {% endif %}
 	  
-  	  </span>
+  	  </div>
 
       <span class="project-tagline" style="text-align:justify;text-justify:inter-word;">{{ project.tagline | markdownify}}</span>
 
