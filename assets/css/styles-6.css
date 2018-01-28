@@ -70,7 +70,7 @@ p {
   color: #fff;
 }
 .sidebar-wrapper .profile-container {
-  padding: 28px;
+  padding: 26px;
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
   color: #fff;
@@ -304,7 +304,7 @@ p {
 used for profile image
 */
 .profile-img {
-  max-width: 135px;
+  max-width: 134px;
   margin-bottom: 15px;
   border: 0px solid #fff;
   border-radius: 100%;
