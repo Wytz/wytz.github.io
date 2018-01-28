@@ -14,19 +14,19 @@
     <div class="item" style="margin-bottom:30px;">
       <h3 class="project-title" style="text-align:justify;text-justify:inter-word;"><b>{{ project.title }}</b></h3>
 	  <div class="upper-row" style="margin-top:10px;margin-bottom:10px;">
-	    <div style="font-size:15px;">Link to article:                              <a href="{{ project.link }}"><i>  {{ project.journal}}  </i></a></div>
+	    <div style="font-size:15px;">Link to article:<a href="{{ project.link }}" style="padding-left:20px;"><i>{{ project.journal }}</i></a></div>
 		<div class="time">{{ project.publicationdate }}</div>
 	  </div>
-	  <div class = "links" style="margin-top:10px;margin-bottom:10px;font-size:14px;">
+	  <div class = "links" style="margin-top:10px;margin-bottom:10px;font-size:14px;display:flex;justify-content:space-around;">
 		  
 	    {% if project.github %}
-	    <div class="project-link" style="float:left;width:50%;">Project repository:  <a href="{{ project.github }}"> GitHub repository </a></div>
+	    <div class="project-link">Project repository:  <a href="{{ project.github }}"> GitHub repository </a></div>
 	  
 	    {% endif %}
 		
 	    {% if project.workbook %}
 	  
-	    <div class="project-link" style="align:right;width:50%;">Recreating results:  <a href="{{ project.workbook }}"> Workbook </a></div>
+	    <div class="project-link">Recreating results:  <a href="{{ project.workbook }}"> Workbook </a></div>
 	  
 	    {% endif %}
 	  
