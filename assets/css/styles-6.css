@@ -70,7 +70,7 @@ p {
   color: #fff;
 }
 .sidebar-wrapper .profile-container {
-  padding: 20px;
+  padding: 30px;
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
   color: #fff;
@@ -92,7 +92,7 @@ p {
   margin-bottom: 15px;
 }
 .sidebar-wrapper .contact-list .fa {
-  margin-right: 5px;
+  margin-right: 2px;
   font-size: 18px;
   vertical-align: middle;
 }
@@ -106,7 +106,7 @@ p {
   font-size: 14px;
 }
 .sidebar-wrapper .container-block {
-  padding: 20px;
+  padding: 30px;
 }
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;

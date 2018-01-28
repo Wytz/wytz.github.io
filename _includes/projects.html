@@ -10,6 +10,7 @@
   {% endfor%}
 
   {% for project in site.data.projects %}
+  {% if project.title %}
     <div class="item" style="margin-bottom:30px;">
       <h3 class="project-title" style="text-align:justify;text-justify:inter-word;"><b>{{ project.title }}</b></h3>
 	  <div class="upper-row" style="margin-top:10px;margin-bottom:10px;">
@@ -19,13 +20,13 @@
 	  <div class = links style="margin-top:10px;margin-bottom:10px;font-size:14px;text-align:justify;text-justify:inter-word;">
 		  
 	    {% if project.github %}
-	    <div class="project-link" style="float:left;">Project repository:  <a href="{{ project.github }}"> GitHub repository </a></div>
+	    <div class="project-link" style="float:left;width:50%;">Project repository:  <a href="{{ project.github }}"> GitHub repository </a></div>
 	  
 	    {% endif %}
 		
 	    {% if project.workbook %}
 	  
-	    <div class="project-link" style="float:right;">Recreating results:  <a href="{{ project.workbook }}"> Workbook </a></div>
+	    <div class="project-link" style="float:right;width:50%;">Recreating results:  <a href="{{ project.workbook }}"> Workbook </a></div>
 	  
 	    {% endif %}
 	  
@@ -34,6 +35,7 @@
       <span class="project-tagline" style="text-align:justify;text-justify:inter-word;">{{ project.tagline | markdownify}}</span>
 
     </div><!--//item-->
+  {% endif %}
   {% endfor %}
 
 </section><!--//section-->
