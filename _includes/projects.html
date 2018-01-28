@@ -13,10 +13,10 @@
     <div class="item">
       <h3 class="project-title" style="text-align:justify;text-justify:inter-word;"><b>{{ project.title }}</b></h3>
 	  <div class="upper-row" style="margin-top:10px;margin-bottom:10px;">
-	    <div style="font-size:15px;">Article link:  <a href="{{ project.link }}"><b><i>  {{ project.journal}}  </i></b></a></div>
+	    <div style="font-size:15px;">Article link:  <a href="{{ project.link }}"><i>  {{ project.journal}}  </i></a></div>
 		<div class="time">{{ project.publicationdate }}</div>
 	  </div>
-	  <div class = links style="margin-top:10px;margin-bottom:10px;font-size:20px;text-align:justify;text-justify:inter-word;">
+	  <div class = links style="margin-top:10px;margin-bottom:10px;font-size:15px;text-align:justify;text-justify:inter-word;">
 		  
 	    {% if project.github %}
 	    <span class="project-link">Project repository:  <a href="{{ project.github }}"> GitHub repository </a></span>
