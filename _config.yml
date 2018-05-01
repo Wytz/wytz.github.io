@@ -21,7 +21,7 @@ summary: |+
   
   Knowledge extracted from biomedical literature and datasets are semantically integrated with each other into a knowledge graph, after which this comprehensive body of biomedical knowledge is used for knowledge intensive tasks such as identifying migraine biomarkers to predicting the efficacy of drugs. 
   The elements within these knowledge graphs consist of subject-predicate-object triples, along with the provenance of this triple. 
-  Triples also form the basic elements of the linked (open) data. 
+  Triples also form the basic elements of linked (open) data. 
   However, while the linked data adheres to specific standards (e.g. URI's), knowledge graphs do not necessarily adhere to these standards. 
   For our research, [Euretos](http://www.euretos.com) has provided us access to their knowledge graph. 
   
